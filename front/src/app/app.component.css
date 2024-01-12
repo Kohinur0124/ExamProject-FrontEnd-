@@ -1,0 +1,15 @@
+.section1{
+    background-image: url('../images/bg.png');
+    background-position: center;
+    /* width: 102%; */
+    /* object-fit: cover; */
+    height: 949px;
+     overflow: hidden; 
+}
+.container{
+    margin-top: 200px;
+    width: 1400px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+}

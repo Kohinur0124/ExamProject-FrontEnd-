@@ -1,0 +1,113 @@
+.rect{
+    background-color: white;
+
+    width:360px ;
+    height: 497px ;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+ label{
+    margin-left: 20px;
+    margin-right: 70px;
+    padding-bottom: 6px;
+    color: #444;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}
+
+:host::ng-deep .p-calendar .p-inputtext{
+    
+    border-radius:200px;
+    width: 280px;
+    height: 50px;
+    border :1px solid #C0C2D7;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+ 
+}
+
+
+.odam{
+    margin-top: 26px;
+    margin-top: 20px;
+
+}
+:host::ng-deep .p-inputtext {
+
+   border-radius: 50px;
+   height: 50px;
+   width: 280px;
+   border :1px solid #C0C2D7;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+
+    color: black;
+}
+
+:host::ng-deep .p-slider {
+    background-color: #808080;
+    
+}
+:host::ng-deep.p-slider{
+    width: 280px;
+    background-color: #808080;
+    border: none;
+    height: 2px;
+    color: #C0C2D7;
+}
+:host::ng-deep .p-slider-handle{
+   margin-top: -10px;
+    background-color: #F4683F;
+    border: none;
+    border-radius: 200px;
+    width: 8px;
+    height: 23px;
+
+}
+:host::ng-deep .p-slider-range{
+    background-color: #808080;
+}
+.slider{
+    margin-top: 60px;
+}
+.slider p{
+    margin-top: 15px;
+   text-align: center;
+}
+.naytbtn{
+    margin-top: 57px;
+    width: 280px;
+    height: 50px;
+    border-radius: 200px;
+    background-color: #F4683F;
+    color: white;
+    border: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+

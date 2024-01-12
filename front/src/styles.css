@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    background-image: url(images/bg.png);
+    background-position: center;
+    /* width: 102%; */
+    /* object-fit: cover; */
+    height: 949px;
+     overflow: hidden; 
+}
+.container{
+    margin-top: 200px;
+    width: 1400px;
+    position: center;
+}

@@ -1,0 +1,28 @@
+
+<div class="rect" >
+    <div class ="group1">
+        <div >
+            <label>Въезд</label> <label>Отъезд</label>
+            <p-calendar
+            placeholder="От     |     До"
+            [(ngModel)]="rangeDates" selectionMode="range" [readonlyInput]="true" inputId="range" ></p-calendar>
+        </div>
+        
+        <div class="odam" >
+            <label>Количество человек</label>
+        
+            <input pInputText pKeyFilter="int" placeholder="12" [(ngModel)]="value" />
+        </div>
+        <div class =  "slider">
+            <p-slider [(ngModel)]="rangeValues" [range]="true" [max]="150000" ></p-slider>
+            <p >{{rangeValues[0]}}₽  -  {{rangeValues[1]}}₽</p>
+        </div>
+
+        <button class = "naytbtn">
+            Найти
+        </button>
+    </div>
+</div>
+<script src="sm.js">
+    
+</script>

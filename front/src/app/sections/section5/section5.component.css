@@ -1,0 +1,92 @@
+.templ{
+
+    color: #333;
+margin-left: 30px;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.cardss{
+    display: flex;
+    margin-top: 73px;
+}
+
+.tcard{
+    display: flex;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+
+
+.fortitle{
+    margin:20px;
+    width: 440px;
+    height: 130px;
+    background-color: #FFF;
+    filter: drop-shadow(0px 4px 80px rgba(5, 9, 22, 0.08));
+    display: flex;
+    border-radius:20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.cardimg{
+    display:inline-flex;
+
+    margin-top: 10px;
+}
+.cardp{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-flex;
+    color: #333;
+    
+   
+    align-self: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+
+
+:host::ng-deep .p-panel.p-panel-toggleable .p-panel-header{
+    background-color: #FFF;
+
+}
+
+:host::ng-deep .p-panel .p-panel-header{
+    border: none;
+}
+.alltit{
+
+    border: 1px solid #C0C2D7;;
+    border-left: none;
+    border-right: none;
+    margin-top: -1px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+:host::ng-deep .p-panel-content{
+    border: none;
+}
+:host::ng-deep .p-panel .p-panel-header .p-panel-header-icon
+{
+    align-items: right;
+}
+
+:host::ng-deep .p-panel .p-panel-header .p-panel-title{
+    color: #333;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 33px */
+}

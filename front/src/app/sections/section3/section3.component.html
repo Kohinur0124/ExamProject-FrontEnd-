@@ -1,0 +1,22 @@
+<div>
+
+    <p class ="templ"><div>
+
+        <p class ="templ">Популярное в каталоге</p>
+    </div>
+    <div style="display:grid;
+    grid-template-columns:1fr 1fr 1fr;">
+        @for (item of [0,1,2,3,4,5]; track item) {
+    
+            <div style="display: flex;">
+                <app-card-section3></app-card-section3>
+            </div>
+        }
+    </div>
+    <div class = "forbtn">
+        <button class = "naytbtn">
+            Перейти в каталог
+        </button>
+    </div>
+  
+</div>

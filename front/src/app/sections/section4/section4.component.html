@@ -1,0 +1,23 @@
+<div>
+
+    <p class ="templ"><div>
+
+        <p class ="templ">Можем организовать для Вас</p>
+    </div>
+    <div style="display:grid;
+    grid-template-columns:1fr 1fr 1fr;">
+        @for (item of [0,1,2,3,4,5]; track item) {
+    
+            <div class = "fortitle">
+                <img  class = "cardimg" src={{titless[item].icons}}>
+                <p class = "cardp" >{{titless[item].texts}}</p>
+            </div>
+        }
+    </div>
+    <div class = "forbtn">
+        <button class = "naytbtn">
+            Узнать подробнее
+        </button>
+    </div>
+  
+</div>
