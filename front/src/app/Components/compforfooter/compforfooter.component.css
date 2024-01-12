@@ -1,0 +1,60 @@
+.logos{
+
+}
+.logos img{
+    margin-bottom: 126px;
+}
+.logos p{
+    color: #404256;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+}
+ p {
+    color: #C0C2D7;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.first{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 33px */
+    margin-bottom: 22px;
+}
+.catalog{
+    margin-left: 138px;
+    margin-top: 10px;
+
+}
+.catalog2{
+    margin-left: 92px;
+    margin-top: 10px;
+}
+.soti{
+    margin-top: 10px;
+    margin-left: 232px;
+}
+.sotial{
+    display: flex;
+    align-items: center;
+    margin-top: 143px;
+    
+    
+}
+.soti p{
+    text-align: right;
+}
+.sotial svg{
+    
+    margin: 6px;
+}

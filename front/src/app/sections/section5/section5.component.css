@@ -1,12 +1,13 @@
 .templ{
 
     color: #333;
-margin-left: 30px;
+
     font-family: Raleway;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: 150%;
+    margin-bottom: 80px;
 }
 
 .cardss{
@@ -59,11 +60,22 @@ margin-left: 30px;
 
 :host::ng-deep .p-panel.p-panel-toggleable .p-panel-header{
     background-color: #FFF;
+    align-items: center;
+    width: 100%
+    
 
+}
+:host::ng-deep p-panel .p-panel-header .p-panel-header-icon{
+    align-items: start;
+    margin-left: auto;
+    margin-right: 20px;
+    justify-content: right;
 }
 
 :host::ng-deep .p-panel .p-panel-header{
     border: none;
+    background-color: #FFF;
+    width: 100%;
 }
 .alltit{
 
@@ -76,6 +88,12 @@ margin-left: 30px;
 }
 :host::ng-deep .p-panel-content{
     border: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 28.8px */
 }
 :host::ng-deep .p-panel .p-panel-header .p-panel-header-icon
 {
@@ -89,4 +107,8 @@ margin-left: 30px;
     font-style: normal;
     font-weight: 800;
     line-height: 150%; /* 33px */
+}
+
+:host::ng-deep .p-panel .p-panel-header .p-panel-title{
+    margin-bottom: 17px;
 }

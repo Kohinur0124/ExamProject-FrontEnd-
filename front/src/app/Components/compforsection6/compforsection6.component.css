@@ -1,0 +1,53 @@
+.p1{
+     width: 373px; 
+    color: #FFF;
+    margin-top: 120px;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%; /* 84px */
+    letter-spacing: 1.2px;
+    margin-left: 50px;
+}
+.p2{
+    margin-top: 30px;
+    /* width: 469px; */
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+   
+    margin-left: 50px;
+}
+
+.header3_1{
+    width: 360px;
+    align-items: left;
+    margin-left: 120px;
+    
+}
+.forbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.naytbtn{
+    margin-top: 57px;
+    width: 280px;
+    height: 50px;
+    border-radius: 200px;
+    background-color: #F4683F;
+    color: white;
+    border: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+     
+
+}

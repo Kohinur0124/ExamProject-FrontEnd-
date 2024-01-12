@@ -25,6 +25,8 @@ import { CardSection3Component } from './Components/card-section3/card-section3.
 import { Section4Component } from './sections/section4/section4.component';
 import { Section5Component } from './sections/section5/section5.component';
 import { PanelModule } from 'primeng/panel';
+import { Compforsection6Component } from './Components/compforsection6/compforsection6.component';
+import { CompforfooterComponent } from './Components/compforfooter/compforfooter.component';
 
 
 @NgModule({
@@ -39,7 +41,9 @@ import { PanelModule } from 'primeng/panel';
     Section3Component,
     CardSection3Component,
     Section4Component,
-    Section5Component
+    Section5Component,
+    Compforsection6Component,
+    CompforfooterComponent
   ],
   imports: [
     BrowserModule,
