@@ -8,7 +8,7 @@
         @for (item of Quizs; track item) {
             
             <div class="alltit">
-                <p-panel header= {{item.savol}} [toggleable]=true>
+                <p-panel header= {{item.savol}} [toggleable]=true [collapsed]="true">
                     <p>
                     {{item.javob}}   
                     </p>

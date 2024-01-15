@@ -1,0 +1,67 @@
+.headerfont{
+    width: 100%;
+    /* height: 80px; */
+    padding-top: 21px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+}
+
+.lockazan{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.kazan{
+
+    display: flex;
+}
+p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+}
+.btnfont{
+    margin-left: 21px;
+    background-color:#F4683F;
+    border: 0px solid white;
+    border-radius: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+}
+
+.pwithmargiin{
+    margin-left: 201px;
+    margin-top: 12px;
+}
+.pwithmargiin1{
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.searchbtns{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 184px;
+}
+.btnscontact{
+  
+    display: flex;
+}
+.btnscontact svg{
+    margin-left: 30px;
+    margin-right: 8px;
+}

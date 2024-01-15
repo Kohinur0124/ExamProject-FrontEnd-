@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ViewChild } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -27,6 +27,26 @@ import { Section5Component } from './sections/section5/section5.component';
 import { PanelModule } from 'primeng/panel';
 import { Compforsection6Component } from './Components/compforsection6/compforsection6.component';
 import { CompforfooterComponent } from './Components/compforfooter/compforfooter.component';
+import { Page2Component } from './Pages/page2/page2.component';
+import { RouterModule } from '@angular/router';
+import { Page1Component } from './Pages/page1/page1.component';
+import { Header1lightComponent } from './Components/header1light/header1light.component';
+import { Barforpage2Component } from './Components/barforpage2/barforpage2.component';
+import { DialogModule } from 'primeng/dialog';
+import { OverlayPanelModule } from 'primeng/overlaypanel';
+
+
+
+
+import {
+  MatDialog,
+  MatDialogActions,
+  MatDialogClose,
+  MatDialogContent,
+} from '@angular/material/dialog';
+import { MatMenuTrigger } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+
 
 
 @NgModule({
@@ -43,7 +63,11 @@ import { CompforfooterComponent } from './Components/compforfooter/compforfooter
     Section4Component,
     Section5Component,
     Compforsection6Component,
-    CompforfooterComponent
+    CompforfooterComponent,
+    Page2Component,
+    Page1Component,
+    Header1lightComponent,
+    Barforpage2Component
   ],
   imports: [
     BrowserModule,
@@ -55,7 +79,17 @@ import { CompforfooterComponent } from './Components/compforfooter/compforfooter
     SliderModule,
     CarouselModule,
     CardModule,
-    PanelModule
+    PanelModule,
+    RouterModule,
+    DialogModule,
+    OverlayPanelModule,
+
+
+
+
+    MatDialogContent, MatDialogActions, MatDialogClose, MatButtonModule
+
+
 
   ],
   providers: [
@@ -63,4 +97,6 @@ import { CompforfooterComponent } from './Components/compforfooter/compforfooter
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+ 
+}
